@@ -1,0 +1,103 @@
+@media (max-width: 1060px) {
+    nav {
+      width: 80%;  
+    }
+    .right-nav {
+        width: 20%;;
+    }
+}
+@media (max-width:930px) {
+    nav ul li a {
+        margin-left: 20px;
+    }
+    nav {
+        min-height: 60px;
+    }
+    .right-nav {
+        min-height: 60px;
+    }
+}
+@media (max-width: 850px) {
+    .navigation-links {
+        display: none;
+    }
+    nav {
+        display: none;
+    }
+    .contentfoot {
+        display: none;
+    }
+    .medianavbar {
+        display: flex;
+    }
+    .content p {
+        font-size: 26px;
+    }
+    .content h1 {
+        font-size: 32px;
+    }
+    nav {
+        width: 100%;
+        min-height: 50px;
+      }
+      .right-nav {
+        display: none;
+      }
+      .barmenu {
+        display: block;
+      }
+      .mediabottombar {
+        display: block;
+      }
+      .wrapper {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+      }
+      .box {
+        width: 100%;
+      }
+      .containerhead {
+        display: grid;
+        padding-top: 50px;
+      }
+      .satauri h1 {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      .box:nth-child(1) {
+        padding-bottom: 15px;
+    }
+    .box:nth-child(2) {
+        padding-bottom: 15px;
+    }
+    .wrapper-projects {
+        display: block;
+    }
+    .project-boxes {
+        display: grid;
+    }
+    .project-box {
+        width: 100%;
+        background-color: #D3D0CF;
+        margin-bottom: 30px;
+    }
+    .project-box h2 {
+        margin: 20px;
+    }
+}
+@media (max-width: 1261px) {
+    .content p {
+        font-size: 24px;
+    }
+}
+@media (max-width: 1083px) {
+    .content p {
+        font-size: 20px;
+    }
+}
+@media (max-width: 503px) {
+    .content h1 {
+        font-size: 28px;
+    }
+}

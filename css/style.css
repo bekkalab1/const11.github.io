@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+.header {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+body {
+    background-color: rgb(220, 213, 206);
+}
+nav {
+    width: 70%;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid black;
+    position: absolute;
+    top: 0;
+    lef: 0;
+}
+
+nav h1 {
+    margin-left: 20px;
+    font-size: 22px;
+    cursor: pointer;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 1;
+    letter-spacing: 1.5px;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+.barmenu {
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    font-size: 20px;
+    display: none;
+}
+.back-video {
+    width: 100%;
+    position: relative;
+}
+.right-nav {
+    width: 30%;
+    min-height: 70px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: #ff7c55;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.right-nav {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 1;
+    letter-spacing: 1.5px;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.right-nav:hover {
+    background-color: black;
+    color: white;
+}
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 35%;
+
+}
+.content h1 {
+    font-size: 42px;
+    line-height: 1.3;
+    text-shadow: 1px 1px grey;
+    font-family: 'Roboto Condensed', sans-serif;
+
+    
+}
+.content p {
+    text-align: center;
+    line-height: 1.1;
+    font-size: 28px;
+    margin-top: 10px;
+    font-family: 'Josefin sans', sans-serif;
+}
+.content a button {
+    padding: 13px 80px;
+    background-color: #ff7c55;
+    color: black;
+    border: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.5s;
+}
+.content a button:hover {
+    background-color: black;
+    color: white;
+}
+section {
+    max-width: 100%;
+    background-color: rgb(220, 213, 206);
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.containerhead {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: top;
+}
+.satauri h1 {
+    width: 30%;
+    font-size: 42px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.content2 {
+    width: 800px;
+    width: 100%;
+}
+.content2 h2 {
+    line-height: 1.1;
+    font-size: 22px;
+    width: 80%
+    font-family: 'Cinzel', serif;
+    margin-bottom: 20px;
+}
+.content2 a {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 1;
+    letter-spacing: 2px;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Condensed', sans-serif;
+    border-bottom: 2px solid black;
+}
+.wrapper {
+    padding-top: 20px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.box {
+    width: 30%;
+}
+img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.wrapper .box h3 {
+    margin-bottom: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+}
+.wrapper .box p {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.4;
+}
+.medianavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+    min-height: 50px;
+    display: none;
+    background-color: #e7e7e7;
+}
+.mediacontent {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mediacontent p {
+    text-align: center;
+    line-height: 1.1;
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: 'Josefin sans', sans-serif;
+    width: 400px;
+    padding: 40px 20px 20px;
+}
+.mediabutton {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mediabutton a button, .button button {
+    padding: 13px 20px;
+    background-color: #ff7c55;
+    color: black;
+    border: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.5s;
+}
+.mediabutton a button:hover, .button button:hover {
+    background-color: black;
+    color: white;
+}
+.mediabottombar {
+    display: none;
+    background-color: #e7e7e7;
+    padding-bottom: 60px;
+}
+.coversection {
+    width: 100%;
+}
+.coverphoto {
+    background-image: url("https://sumesshmenonassociates.com/wp-content/uploads/2021/12/001.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;	
+	height: 70vh;
+	width: 100%;
+	background-position: center;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.coverphotoh1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.describesection {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 50%;
+}
+.describesection h1 {
+    font-size: 42px;
+    font-family: 'Cinzel', serif;
+    text-shadow: 1px 1px 4px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+.coverphotobutton a button {
+    padding: 13px 50px;
+    background-color: #ff7c55;
+    color: black;
+    border: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.5s;
+}
+.coverphotobutton a button:hover {
+    background-color: black;
+    color: white;
+}
+.sec-projects {
+    background-color: #E3DFDE;
+    padding-bottom: 70px;
+}
+.wrapper-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper-projects h1 {
+    font-size: 42px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+}
+.project-boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.project-box {
+    width: 45%;
+}
+.project-box-content {
+    background-color: #D3D0CF;
+    padding-bottom: 25px;
+}
+.project-box-content img {
+    margin-bottom: 30px;
+}
+.project-box h2 {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 30px;
+}
+.project-box h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.project-box p {
+    font-family: 'Cinzel', serif;
+    font-size: 22px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.project-box-content button {
+    padding: 11px 50px;
+    background-color: #ff7c55;
+    color: black;
+    border: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.5s;
+    margin-left: 20px;
+}
+.project-box-content button:hover {
+    background-color: black;
+    color: white;
+}
