@@ -101,3 +101,14 @@
         font-size: 28px;
     }
 }
+@media (max-width: 925px) {
+    .footer-head {
+        display: grid;
+        gap: 20px;
+        width: 100%;
+    }
+    .logo, .footer-info, .footer-links, .footer-links, .footer-contact, .footer-terms {
+        width: 100%;
+    }
+
+}

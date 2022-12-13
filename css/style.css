@@ -348,3 +348,43 @@ img {
     background-color: black;
     color: white;
 }
+.footer {
+    background-color: black;
+    width: 100%;
+}
+.footer-head {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    color: #ff7c55;
+    padding: 50px 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 20px;
+    
+}
+.logo, .footer-info, .footer-links, .footer-links, .footer-contact, .footer-terms  {
+    border-top: 2px dotted #ff7c55;
+    padding-top: 10px;
+}
+.footer-info {
+    width: 300px;
+}
+.footer-links ul {
+    list-style: none;
+}
+.footer-links ul li a {
+    color: #ff7c55;
+    line-height: 25px;
+}
+.footer-contact {
+    line-height: 25px;
+}
+.ft-cnt a {
+    margin-right: 10px;
+    color: #ff7c55;
+}
+.footer-terms a {
+    color: #ff7c55;
+}
