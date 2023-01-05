@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+html {
+  scroll-behavior: smooth;
+}
 .header {
     width: 100%;
     height: 100%;
@@ -145,10 +148,10 @@ section {
     width: 100%;
 }
 .content2 h2 {
-    line-height: 1.1;
+    line-height: 1.3;
     font-size: 22px;
-    width: 80%
-    font-family: 'Cinzel', serif;
+    width: 90%;
+    font-family: 'Roboto Condensed', sans-serif;
     margin-bottom: 20px;
 }
 .content2 a {
@@ -265,7 +268,7 @@ img {
     text-align: center;
     width: 50%;
 }
-.describesection h1 {
+.describesectionh3 {
     font-size: 42px;
     font-family: 'Cinzel', serif;
     text-shadow: 1px 1px 4px rgb(0, 0, 0);
@@ -387,4 +390,111 @@ img {
 }
 .footer-terms a {
     color: #ff7c55;
+}
+
+
+/* sobre nosotros  */
+.sobrenosotros {
+    background-color:#F4EADE;
+    width: 100%;
+}
+
+.sobrenosotrosphotomedia {
+    display: none;
+}
+.sobrenosotroswrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 2%;
+    background-color: #F4EADE;
+    gap: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.sobrenosotrosinfo {
+    width: 48%;
+}
+
+.sobrenosotrosinfo h3 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.sobrenosotrosinfop {
+    letter-spacing: 1.2;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.sobrenosotrosinfo a {
+    color: #ff7c55;
+    letter-spacing: 1.2;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.sobrenosotrosinfo h5 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+.sobrenosotrosinfop2 {
+    letter-spacing: 1.2;
+    line-height: 1.5;
+}
+.sobrenosotrosbutton {
+    margin-top: 20px;
+}
+.sobrenosotrosbutton {
+    margin-top: 20px;
+    padding: 13px 50px;
+    background-color: #ff7c55;
+    color: black;
+    border: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.5s;
+}
+.sobrenosotrosbutton:hover {
+    background-color: black;
+    color: white;
+}
+.sobrenosotrosphoto {
+    width: 48%;
+}
+.sobrenosotrosphoto img {
+    object-fit: cover;
+    max-width: 500px;
+    border-radius: 10px;
+    -webkit-box-shadow: -20px -20px 6px 0px rgba(255,124,85,1);
+    -moz-box-shadow: -20px -20px 6px 0px rgba(255,124,85,1);
+    box-shadow: -20px -20px 6px 0px rgba(255,124,85,1);
+}
+
+/* our services wrapper */
+
+.ourserviceswrapper {
+    max-width: 1200px;
+    padding: 50px 3% 0 ;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.ourserviceswrapper h1 {
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+
+}
+.ourserviceswrapper h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.ourserviceswrapper h3 {
+    font-size: 30px;
+}
+.ourserviceswrapper a {
+    color: #ff7c55;
+    line-height: 1.5;
 }

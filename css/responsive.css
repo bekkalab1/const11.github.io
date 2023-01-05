@@ -85,6 +85,21 @@
     .project-box h2 {
         margin: 20px;
     }
+    .sobrenosotrosphotomedia {
+        display: block;
+    }
+    .sobrenosotrosphoto {
+        display: none;
+    }
+    .sobrenosotroswrapper {
+        display: block;
+    }
+    .sobrenosotrosinfo {
+        width: 90%;
+    }
+    .sobrenosotroswrapper {
+        padding: 50px 2%;
+    }
 }
 @media (max-width: 1261px) {
     .content p {
